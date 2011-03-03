@@ -1,0 +1,107 @@
+.panorama-viewport {
+	position: relative;
+	width: 600px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.panorama-container {
+	position: relative;
+	width: 100000px;
+	margin: 0;
+	padding: 0;
+
+}
+.panorama-control {
+	position: absolute;
+	display: none;
+	padding: 0;
+	margin: 0;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background: black;
+	filter: alpha(opacity=50);
+	opacity: .5;
+	text-align: left;
+}
+.panorama-control-left, .panorama-control-right, .panorama-control-pause { 
+	float: left;
+	padding: 0;
+	margin: 0;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 30px;
+	width: 33%;
+	text-align: center;
+	font-family: 'Arial',sans-serif
+}
+.panorama-control-left:hover, .panorama-control-right:hover, .panorama-control-pause:hover { 
+	text-decoration: none;
+}
+.panorama-control-pause {
+	text-transform: uppercase;
+}
+.panorama-panel {
+	position: absolute;
+	display: none;
+	top: 0;
+	right: 0;
+	background: #009cff;
+	filter: alpha(opacity=50);
+	opacity: .5;
+	color: white;
+	padding: 4px;
+}
+.panorama-panel h2 {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	text-align: right;
+}
+.panorama-panel ul {
+	display: none;
+}
+.panorama {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.panorama-area {
+	border: 2px solid white;
+	filter: alpha(opacity=20);
+	opacity: .2;
+	background: black;
+	font-size: 100%;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+}
+.panorama-area-hover {
+	background: #0080e2;
+	cursor: pointer;
+} 
+
+.area0-hover {
+	background: #ff7e00;
+}
+.area1-hover {
+	background: #25bf5b;
+}
+.panorama-title {
+ 	position: absolute; 
+	right: 0;
+	top: 0; 
+	font-size: 16px; 
+	font-family: Verdana;
+	background: gray;
+	padding: 3px;
+	filter: alpha(opacity=50);
+	opacity: .5;
+}
